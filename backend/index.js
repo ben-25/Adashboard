@@ -1,0 +1,19 @@
+import "dotenv/config";
+import express from "express";
+import cors from "cors";
+
+import themesRouter from "./routes/themes.routes.js";
+import skillsRouter from "./routes/skills.routes.js";
+
+const app = express();
+const port = process.env.PORT || 3000;
+
+app.use(cors());
+app.use(express.json());
+
+app.use("/themes", themesRouter);
+app.use("/skills", skillsRouter);
+
+app.listen(port, () => {
+  console.log(`API sur http://localhost:${port}`);
+});

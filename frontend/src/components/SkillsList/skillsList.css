@@ -1,0 +1,13 @@
+.skillsList{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    button{
+        height: 30px;
+    }
+    .check{
+        width: 30px;
+        height: 30px;
+        accent-color: #4a90e2;
+    }
+}

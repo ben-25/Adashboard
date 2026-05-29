@@ -1,0 +1,13 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.ButtonAdd{
+    background: #4a90e2;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}

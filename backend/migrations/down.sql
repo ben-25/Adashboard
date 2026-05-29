@@ -1,0 +1,3 @@
+DROP TABLE themes CASCADE;
+
+DROP TABLE skills;
