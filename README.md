@@ -13,7 +13,7 @@ Ce projet sert de point de départ pour apprendre, expérimenter ou construire u
 ## 🛠️ Stack Technique
 
 ### Frontend
-- **[React](ca://s?q=React_framework)** / **[Next.js](ca://s?q=Next_js_framework)**  
+- **[React](ca://s?q=React_framework)**  
 - **CSS Modules**
 
 ### Backend
